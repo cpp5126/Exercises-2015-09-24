@@ -22,6 +22,25 @@
 
 public class Grades {
   public static void main(String[] args) {
+    int count;
+        float sum = 0;
+        float grade;
+        Scanner scan = new Scanner(System.in);
+    
+        System.out.print("Enter number of grades: ");
+        count = scan.nextInt();
+        while (0 != (count = input.nextInt())) {
+            count ++; 
+        
+            grade = scan.nextFloat();
+            sum += grade;
+
+        System.out.println("The average of the grades is: " + sum/count);
+    
+      
+    }
+  
+  } 
     
   }
 
